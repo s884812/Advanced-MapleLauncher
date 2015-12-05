@@ -94,7 +94,7 @@ namespace Advanced_MapleLauncher
 
             if (downloadLinks != null && downloadLinks.Count == 0)
             {
-                Process.Start(textBox1.Text + Launcher.Settings.clientName);
+                Process.Start(textBox1.Text + @"\" + Launcher.Settings.clientName);
             }
             else if(downloadLinks != null)
             {
